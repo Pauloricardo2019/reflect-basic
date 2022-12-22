@@ -19,6 +19,8 @@ func main() {
 	//Faz o parse da struct para o tipo "reflect.Value"
 	v := reflect.ValueOf(userTest)
 
+	//Sempre que for um ponteiro usar o metodo "Elem()"
+
 	//Verifica se o tipo parseado é realmente uma struct
 	if v.Elem().Kind() != reflect.Struct {
 		fmt.Println("V don't is a struct")
