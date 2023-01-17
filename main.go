@@ -14,6 +14,7 @@ type User struct {
 
 func main() {
 	//Gerar um objeto usuário qualquer
+	//
 	userTest := generateUser()
 
 	//Faz o parse da struct para o tipo "reflect.Value"
