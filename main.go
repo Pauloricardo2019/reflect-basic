@@ -5,7 +5,7 @@ import (
 	"reflect"
 )
 
-//
+
 //user struct
 type User struct {
 	ID    uint64 `tamanho:"1" required:"false"`
