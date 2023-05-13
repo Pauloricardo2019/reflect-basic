@@ -12,7 +12,7 @@ type User struct {
 	Name  string `tamanho:"4" required:"true"`
 	Email string `tamanho:"4" required:"true"`
 	Age   uint8  `tamanho:"5" required:"false"`
-}//
+}
 
 func main() {
 	//Gerar um objeto usuário qualquer
